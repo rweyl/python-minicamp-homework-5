@@ -1,0 +1,39 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+</head>
+
+<body id="bodyText">
+
+  <h1 class="header">My Pets</h1>
+
+  <form id="new-pet-form" action="/new-pet" method="POST" onsubmit="return validateForm()">
+  Name:
+  <input id="nameInput" name="name" />
+  <br>
+  Species:
+  <input id="speciesInput" name="species" />
+  <br>
+  Age:
+  <input id="ageInput" name="age" />
+  <br>
+  <input id="submit" type="submit" value="Submit" />
+  </form>
+
+  <a href="/pets">Pets List</a>
+  <br><br>
+
+  <input id="textColor" />
+  <button id="changeText">Change Text Color</button>
+  <br><br><br>
+
+  <button id="hideAll" >Hide Everything...if you dare!</button>
+
+  <p>Apply to our full-time and part-time courses to take accelerate your education.</p>
+  <p>Our courses teach you the skills you need to take the next step in becoming a software engineer.</p>
+  <p>We provide job support during and after the course to help you continue to develop your skills and find the right opportunities.</p>
+  Learn more <a href="https://www.lambdaschool.com">here.</a>
+
+
+  <script src="/static/scripts/home.js"></script>
+
+</body>
